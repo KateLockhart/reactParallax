@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/normalise.css";
+import "./styles/main_styles.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="main_container">
+      <div className="section1"></div>
+
+      <div className="section2">
+        <svg
+          className="svg_curve_top"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="orange"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
         >
-          Learn React
-        </a>
-      </header>
+          <path d="M0,100 C65,93 76,10 100,100" />
+        </svg>
+
+        <svg
+          className="svg_curve_bottom"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="orange"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <path d="M0,0 C65,20 90,5 100,0" />
+        </svg>
+      </div>
+
+      <div className="section3"></div>
     </div>
   );
 }
