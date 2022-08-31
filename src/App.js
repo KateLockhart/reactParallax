@@ -1,6 +1,8 @@
 import "./styles/normalise.css";
 import "./styles/main_styles.css";
 
+import MyButton from "./components/MyButton";
+
 function App() {
   return (
     <div className="main_container">
@@ -74,6 +76,9 @@ function App() {
       </div>
 
       <div className="section3">
+        Sign up for our newsletter!
+        <input type="text" name="email" id="email" className="input_email" />
+        <MyButton />
         <div className="contacts">
           <div className="contact_section"></div>
           <div className="contact_section"></div>
