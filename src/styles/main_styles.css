@@ -1,0 +1,38 @@
+.section1 {
+  width: 100vw;
+  max-width: 100%;
+  height: 550px;
+  position: relative;
+  /* Position will switch to fixed for parallax, and fixed property will be used.
+    top: 0; 
+    z-index: -9; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section2 {
+  width: 100vw;
+  max-width: 100%;
+  height: 550px;
+  position: relative;
+  /* Position will switch to fixed for parallax, and fixed property will be used.
+    top: calc(550px * 1); 
+    z-index: 99; */
+}
+
+.section3 {
+  width: 100vw;
+  max-width: 100%;
+  height: 550px;
+  position: relative;
+  /* Position will switch to fixed for parallax, and fixed property will be used.
+    top: calc(550px * 2);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  background-color: #676b89;
+}
