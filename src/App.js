@@ -1,6 +1,7 @@
 import "./styles/normalise.css";
 import "./styles/main_styles.css";
 
+import ParallaxJSXWrapper from "./components/ParallaxJSXWrapper";
 import MyButton from "./components/MyButton";
 
 function App() {
