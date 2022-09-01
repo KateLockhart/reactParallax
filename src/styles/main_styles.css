@@ -38,6 +38,8 @@
   justify-content: flex-end;
   align-items: center;
 
+  font-size: 30px;
+
   background-color: #676b89;
 }
 
@@ -143,4 +145,38 @@
   height: auto;
   border-radius: 50%;
   box-shadow: 0 0 10px 5px black;
+}
+
+/* *********** Section 3 Children *********** */
+.input_email {
+  margin: 10px 0;
+  padding: 10px;
+  width: 60%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+
+  font-size: 25px;
+
+  outline: none;
+}
+
+.contacts {
+  margin-top: 110px;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+
+  color: white;
+  background-color: #303443;
+  box-shadow: 0 0 5px 0 #303443;
+}
+
+.contact_section {
+  margin: 0 15px;
+  width: 200px;
+  height: 100%;
+
+  font-size: 22px;
 }
