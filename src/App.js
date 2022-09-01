@@ -78,7 +78,7 @@ function App() {
       <div className="section3">
         Sign up for our newsletter!
         <input type="text" name="email" id="email" className="input_email" />
-        <MyButton />
+        <MyButton name="Sign Up" />
         <div className="contacts">
           <div className="contact_section">
             <ul>
